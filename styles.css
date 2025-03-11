@@ -19,8 +19,14 @@ header {
     margin-top: 10px;
 }
 
-h1 {
-    margin: 10px 0;
+.download-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #0077b5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 section {
