@@ -1,2 +1,5 @@
-# html_basics
-this is the beginning of basic html
+
+npx create-next-app@latest vijayakrishna
+cd vijayakrishna
+npm run dev
+npm install tailwindcss @tailwindcss/postcss postcss
