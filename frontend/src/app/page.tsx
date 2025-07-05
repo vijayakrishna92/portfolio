@@ -5,7 +5,7 @@ export default function Home() {
     { name: 'Programming Languages', items: ['Python', 'Dart', 'HTML', 'CSS'] },
     {
       name: 'Frameworks & Libraries', items: [
-        "React", "Flutter", "Django", "FastAPI", "Selenium",
+        "React", "NodeJS", "Flutter", "Django", "FastAPI", "Selenium",
         "Scikit-learn", "Tensorflow", "Pytorch", "Langchain",
         "CrewAI", "Autogen", "LANGGRAPH", "NLTK"
       ]
