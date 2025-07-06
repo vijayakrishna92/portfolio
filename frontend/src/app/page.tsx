@@ -34,28 +34,28 @@ export default function Home() {
   return (
     <main className="pt-46 md:pt-42">
       <div className="flex flex-col-reverse md:flex-row items-center justify-between px-4 md:px-20">
-  {/* Text: appears below image on mobile, left on desktop */}
-  <section className="space-y-2 text-center md:text-left mt-4 md:mt-0">
-    <p className='text-3xl md:text-6xl'>Hi, I'm Vijaya krishna </p>
-    <p className='text-xl md:text-3xl'>— AI Engineer & Full-Stack Developer</p>
-    <p className='text-base md:text-xl'>I build machine learning models and modern web & mobile apps</p>
-  </section>
-  
-  {/* Image: appears first on mobile, right on desktop */}
-  <Image 
-    src="/images/hero.png" 
-    alt="Logo" 
-    width={300} 
-    height={100}
-    className="w-auto h-auto"
-  />
-</div>
+        {/* Text: appears below image on mobile, left on desktop */}
+        <section className="space-y-2 text-center md:text-left mt-4 md:mt-0">
+          <p className='text-3xl md:text-6xl'>Hi, I'm Vijaya krishna </p>
+          <p className='text-xl md:text-3xl'>— AI Engineer & Full-Stack Developer</p>
+          <p className='text-base md:text-xl'>I build machine learning models and modern web & mobile apps</p>
+        </section>
+
+        {/* Image: appears first on mobile, right on desktop */}
+        <Image
+          src="/images/hero.png"
+          alt="Logo"
+          width={300}
+          height={100}
+          className="w-auto h-auto"
+        />
+      </div>
 
 
       <div className="pt-10 md:pt-42">
         <div className='flex justify-start'>
-<p className='text-3xl md:text-6xl'>Skills</p>
-</div>
+          <p className='text-3xl md:text-6xl'>Skills</p>
+        </div>
         {skillsData.map((skill, index) => (
           <div key={index} className="mb-5">
             <div className="pt-5 text-2xl mb-4 flex justify-start">
@@ -73,7 +73,7 @@ export default function Home() {
             </div>
           </div>
         ))}
-        
+
       </div>
     </main>
   )
